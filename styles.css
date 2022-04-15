@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: hsl(185, 75%, 39%);
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* I placed the card at the center of the viewport withthis style */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card img.card-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.victor-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  position: absolute;
+  left: 35%;
+  top: 100px;
+}
+
+.text {
+  padding-top: 80px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.vict-info {
+  color: hsl(0, 0%, 59%);
+}
+
+.city {
+  color: hsl(0, 0%, 59%);
+  font-size: 15px;
+}
+
+.details {
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.amount {
+  font-weight: 700;
+}
+
+.stats {
+  color: hsl(0, 0%, 59%);
+  font-weight: 200;
+  font-size: 12px;
+}
